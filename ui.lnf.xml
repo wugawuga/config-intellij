@@ -1,0 +1,6 @@
+<application>
+  <component name="UISettings">
+    <option name="compactTreeIndents" value="true" />
+    <option name="PRESENTATION_MODE_FONT_SIZE" value="48" />
+  </component>
+</application>
