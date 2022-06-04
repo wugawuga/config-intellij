@@ -1,0 +1,8 @@
+<templateSet group="custom">
+  <template name="tdd" value="@Test&#10;public void $NAME$() throws Exception {&#10;    //given&#10;    $END$&#10;    //when&#10;    &#10;    //then&#10; &#10;}" description="tdd" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
